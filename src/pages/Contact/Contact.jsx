@@ -14,11 +14,11 @@ export default function Contact(){
             <i class="fa-light fa-minus white"></i>
             </p>
 
-            <form className="flex flex-col w-50 py-5" >
-                <input type="text" placeholder="userName" className="w-50 p-1 m-1" />
-                <input type="number" placeholder="userAge" className="w-50 p-1 m-1 "/>
-                <input type="email" placeholder="userEmail" className="w-50 p-1 m-1"/>
-                <input type="password" placeholder="userPassword" className="w-50 p-1 m-1"/>
+            <form className="flex flex-col w-1/2 py-5" >
+                <input type="text" placeholder="userName" className=" p-1 m-1 outline-none border-b border-gray-200 shadow-sm " />
+                <input type="number" placeholder="userAge" className=" p-1 m-1 "/>
+                <input type="email" placeholder="userEmail" className=" p-1 m-1"/>
+                <input type="password" placeholder="userPassword" className=" p-1 m-1"/>
 
                 <button type="button" className="border-solid rounded-md text-white border-1 my-4 border-black bg-sky-300 w-28 h-18 mx-auto ">send Message</button>
             </form>

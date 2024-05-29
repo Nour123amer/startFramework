@@ -9,7 +9,7 @@ export default function Nav(){
             <h1 className="text-lg font-bold text-white "><Link to="/"> START FRAMEWORK </Link></h1>
 
             <ul className="flex gap-3 list-none ms-auto">
-                <li className="white font-bold"><NavLink to="/" className="uppercase no-underline text-white">ABOUT</NavLink></li>
+                <li className="white font-bold"><NavLink to="/about" className="uppercase no-underline text-white">ABOUT</NavLink></li>
                 <li className="white font-bold"><NavLink to="/portfolio" className="uppercase no-underline text-white">PORTFOLIO</NavLink></li>
                 <li className="white font-bold"><NavLink to="/contact" className="uppercase no-underline text-white">CONTACT</NavLink></li>
             </ul>
