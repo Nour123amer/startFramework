@@ -7,13 +7,13 @@ export default function Nav(){
         <>
         <div className="container ">
            <h2>PORTFOLIO COMPONENT</h2>
-           <div className="images flex justify-between flex-wrap gap-3 my-5">
-            <img className="w-80 h-75 rounded-md " src={image1}  />
-            <img className="w-80 h-75 rounded-md" src={image2}  />
-            <img className="w-80 h-75 rounded-md" src={image3}  />
-            <img className="w-80 h-75 rounded-md" src={image1}  />
-            <img className="w-80 h-75 rounded-md" src={image2}  />
-            <img className="w-80 h-75 rounded-md" src={image3}  />
+           <div className="images container flex justify-around  flex-wrap gap-2 my-5">
+            <img className="w-1/4 h-75 rounded-md " src={image1}  />
+            <img className="w-1/4 h-75 rounded-md" src={image2}  />
+            <img className="w-1/4 h-75 rounded-md" src={image3}  />
+            <img className="w-1/4 h-75 rounded-md" src={image1}  />
+            <img className="w-1/4 h-75 rounded-md" src={image2}  />
+            <img className="w-1/4 h-75 rounded-md" src={image3}  />
 
            </div>
         </div>
